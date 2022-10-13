@@ -10,10 +10,10 @@ alias rc='nvim ~/.zshrc'
 
 
 alias c='clear'
-alias gcl='git clone'
+# alias gcl='git clone'
 alias a='~'
-alias gg='~/github/'
-alias gd='~/Downloads/'
+# alias gg='~/github/'
+# alias gd='~/Downloads/'
 alias gc='~/.config/'
 
 
