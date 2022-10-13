@@ -1,37 +1,35 @@
-# when leaving the console clear the screen to increase privacy
-if [ "$SHLVL" = 1 ]; then
-    [ -x /usr/bin/clear_console ] && /usr/bin/clear_console -q
-fi
+# source ~/.config/zsh/themes.zsh
+# source ~/.config/zsh/env.zsh
+# source ~/.config/zsh/aliases.zsh
 
-# if [ -f ~/.oh-my-zsh/oh-my-zsh.sh ]; then
-#     . ~/.oh-my-zsh/oh-my-zsh.sh
-# fi
-
-source ~/.config/zsh/themes.zsh
-source ~/.config/zsh/env.zsh
-source ~/.config/zsh/aliases.zsh
+export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/.local/bin
+export MANPATH="/usr/local/man:$MANPATH"
+# export TERM='xterm-256color'
+export RANGER_LOAD_DEFAULT_RC="false"
+export TERM_ITALICS=true
 
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/nvim-linux64/bin:$PATH
 
-# export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
 export EDITOR="nvim"
-export XDG_CONFIG_HOME="$HOME/.config"
+# export XDG_CONFIG_HOME="$HOME/.config"
 
 # Path to pip
-export PATH="/home/hxm/.local/bin:$PATH"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="clean"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -129,3 +127,15 @@ export RANGER_LOAD_DEFAULT_RC=false
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias S='source ~/.zshrc'
+alias ra='ranger'
+alias lg='lazygit'
+alias neo='neofetch'
+alias nv='nvim'
+alias neo='neofetch'
+alias sudo='sudo '
+alias X='chmod +x'
+alias rc='nvim ~/.zshrc'
+
+alias c='clear'
+alias a='~'

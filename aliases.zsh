@@ -1,20 +1,7 @@
-alias S='source ~/.zshrc'
-alias ra='ranger'
-alias lg='lazygit'
-alias neo='neofetch'
-alias nv='nvim'
-alias neo='neofetch'
-alias sudo='sudo '
-alias X='chmod +x'
-alias rc='nvim ~/.zshrc'
-
-
-alias c='clear'
+alias gc='~/.config/'
 # alias gcl='git clone'
-alias a='~'
 # alias gg='~/github/'
 # alias gd='~/Downloads/'
-alias gc='~/.config/'
 
 
 # alias av='source venv/bin/activate'
