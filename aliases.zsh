@@ -1,11 +1,12 @@
 alias S='source ~/.zshrc'
 alias ra='ranger'
 alias lg='lazygit'
-alias s='neofetch'
+alias neo='neofetch'
 alias nv='nvim'
 alias neo='neofetch'
 alias sudo='sudo '
 alias X='chmod +x'
+alias rc='nvim ~/.zshrc'
 
 
 alias c='clear'
