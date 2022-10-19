@@ -8,7 +8,7 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 #
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bg=cyan,bold,underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bg='ff5fff',bold,underline"
 
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 unset ZSH_AUTOSUGGEST_USE_ASYNC

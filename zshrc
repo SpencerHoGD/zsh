@@ -2,25 +2,26 @@
 # source ~/.config/zsh/env.zsh
 # source ~/.config/zsh/aliases.zsh
 
+export ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# Insecure completion-dependent directories detected:
+ZSH_DISABLE_COMPFIX="true"
+
 export PATH=$PATH:/usr/local/bin
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
-export MANPATH="/usr/local/man:$MANPATH"
-# export TERM='xterm-256color'
-export RANGER_LOAD_DEFAULT_RC="false"
-export TERM_ITALICS=true
 
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/nvim-linux64/bin:$PATH
 
-export ZSH="$HOME/.oh-my-zsh"
-source $HOME/.oh-my-zsh/oh-my-zsh.sh
+# source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 # Path to your oh-my-zsh installation.
-export EDITOR="nvim"
-# export XDG_CONFIG_HOME="$HOME/.config"
+# export EDITOR="nvim"
+export EDITOR=nvim
 
 # Path to pip
 
@@ -29,7 +30,9 @@ export EDITOR="nvim"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
-ZSH_THEME="clean"
+# ZSH_THEME="clean"
+ZSH_THEME="jonathan"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -122,10 +125,6 @@ fi
 
 # To avoid ranger loading conf twice
 export RANGER_LOAD_DEFAULT_RC=false
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias S='source ~/.zshrc'
 alias ra='ranger'
@@ -139,3 +138,4 @@ alias rc='nvim ~/.zshrc'
 
 alias c='clear'
 alias a='~'
+alias e='exit'
