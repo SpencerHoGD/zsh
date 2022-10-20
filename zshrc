@@ -135,6 +135,11 @@ alias neo='neofetch'
 alias sudo='sudo '
 alias X='chmod +x'
 alias rc='nvim ~/.zshrc'
+alias dkps='sudo docker ps'
+alias dka='sudo docker ps -a'
+alias dkq='sudo docker ps -aq'  # conteiner ID
+alias dkr='sudo docker run'
+
 
 alias c='clear'
 alias a='~'
