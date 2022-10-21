@@ -135,12 +135,38 @@ alias neo='neofetch'
 alias sudo='sudo '
 alias X='chmod +x'
 alias rc='nvim ~/.zshrc'
-alias dkps='sudo docker ps'
-alias dka='sudo docker ps -a'
-alias dkq='sudo docker ps -aq'  # conteiner ID
-alias dkr='sudo docker run'
-
-
 alias c='clear'
 alias a='~'
 alias e='exit'
+alias upd='sudo pacman -Syu'
+alias ins='sudo pacman -S'
+
+# docker
+alias dk='sudo docker'
+alias dkr='sudo docker run'
+
+alias dkps='sudo docker ps'
+alias dkpa='sudo docker ps -a'
+alias dkpq='sudo docker ps -aq'  # conteiner ID
+
+alias dksto='sudo docker stop'
+alias dksta='sudo docker start'
+
+alias dkimg='sudo docker images'
+alias dkrmi='sudo docker rmi'
+
+alias dkrm='sudo docker rm' # remove container
+# docker stop $(docker ps -aq)  delete all container
+# or dksto $(dkq)
+
+alias dkvol='sudo docker volume'
+
+# docker compose
+alias dkup='sudo docker compose up'
+alias dkdo='sudo docker compose down'
+
+
+
+
+
+
